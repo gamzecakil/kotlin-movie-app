@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.MainActivity"
+    android:orientation="vertical">
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="Enter search item"
+        android:iconifiedByDefault="false"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/searchview_backgound"
+        android:queryBackground="@android:color/transparent"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/radioGrup"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="80dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonTrack"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="11dp"
+            android:layout_marginBottom="23dp"
+            android:text="track"
+            android:textSize="7dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/nestedScrollView"
+            app:layout_constraintEnd_toStartOf="@+id/buttonTrack"
+            app:layout_constraintStart_toEndOf="@+id/buttonArtist"
+            app:layout_constraintTop_toBottomOf="@+id/buttonArtist" />
+
+        <Button
+            android:id="@+id/buttonaudioBook"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="11dp"
+            android:layout_marginBottom="23dp"
+            android:textSize="7dp"
+            android:textStyle="bold"
+            android:text="audıoBook"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/nestedScrollView"
+            app:layout_constraintEnd_toStartOf="@+id/buttonTrack"
+            app:layout_constraintStart_toEndOf="@+id/buttonArtist"
+            app:layout_constraintTop_toBottomOf="@+id/buttonArtist" />
+
+        <Button
+            android:id="@+id/buttonArtist"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="11dp"
+            android:layout_marginBottom="23dp"
+            android:text="artıst"
+            android:textSize="7dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/nestedScrollView"
+            app:layout_constraintEnd_toStartOf="@+id/buttonTrack"
+            app:layout_constraintStart_toEndOf="@+id/buttonArtist"
+            app:layout_constraintTop_toBottomOf="@+id/buttonArtist" />
+        <Button
+            android:id="@+id/buttonCollection"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="11dp"
+            android:layout_marginBottom="23dp"
+            android:text="collection"
+            android:textSize="7dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/nestedScrollView"
+            app:layout_constraintEnd_toStartOf="@+id/buttonTrack"
+            app:layout_constraintStart_toEndOf="@+id/buttonArtist"
+            app:layout_constraintTop_toBottomOf="@+id/buttonArtist" />
+
+    </LinearLayout>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:nestedScrollingEnabled="false"
+                tools:listitem="@layout/row_layout" />
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="invisible"
+
+                />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</RelativeLayout>

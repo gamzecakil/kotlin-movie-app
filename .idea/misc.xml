@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Gamze/Desktop/27MOVIES/kotlin-movie-app-master/kotlin-movie-app-master/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Gamze/Desktop/27MOVIES/kotlin-movie-app-master/kotlin-movie-app-master/app/src/main/res/layout/row_layout.xml" value="0.14" />
+        <entry key="..\:/Users/Gamze/Desktop/27MOVIES/kotlin-movie-app-master/kotlin-movie-app-master/app/src/main/res/layout/row_layout_details.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/Gamze/Desktop/KotlinCryptocurrencyApp/app/src/main/res/layout/activity_main.xml" value="0.14895833333333333" />
+        <entry key="..\:/Users/Gamze/Desktop/KotlinCryptocurrencyApp/app/src/main/res/layout/row_layout.xml" value="0.33" />
+        <entry key="..\:/Users/Gamze/Desktop/kotlin-movie-app-master/kotlin-movie-app-master/app/src/main/res/layout/activity_details.xml" value="0.1046875" />
+        <entry key="..\:/Users/Gamze/Desktop/kotlin-movie-app-master/kotlin-movie-app-master/app/src/main/res/layout/activity_main.xml" value="0.15" />
+        <entry key="..\:/Users/Gamze/Desktop/kotlin-movie-app-master/kotlin-movie-app-master/app/src/main/res/layout/row_layout.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Gamze/Desktop/movie/KotlinCryptocurrencyApp/app/src/main/res/layout/activity_main.xml" value="0.28854166666666664" />
+        <entry key="..\:/Users/Gamze/Desktop/movie/KotlinCryptocurrencyApp/app/src/main/res/layout/activity_movie_details.xml" value="0.29270833333333335" />
+        <entry key="..\:/Users/Gamze/Desktop/movie/KotlinCryptocurrencyApp/app/src/main/res/layout/row_layout.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/Gamze/Desktop/movie/KotlinCryptocurrencyApp/app/src/main/res/layout/row_layout_details.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/gamze.uysal/Desktop/MOVIE/kotlin-movie-app-master/kotlin-movie-app-master/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/gamze.uysal/Desktop/MOVIE/kotlin-movie-app-master/kotlin-movie-app-master/app/src/main/res/layout/row_layout.xml" value="0.28541666666666665" />
+        <entry key="..\:/Users/gamze.uysal/Desktop/movie/KotlinCryptocurrencyApp/app/src/main/res/layout/activity_domestic_film.xml" value="0.28532608695652173" />
+        <entry key="..\:/Users/gamze.uysal/Desktop/movie/KotlinCryptocurrencyApp/app/src/main/res/layout/activity_domestic_movie.xml" value="0.28532608695652173" />
+        <entry key="..\:/Users/gamze.uysal/Desktop/movie/KotlinCryptocurrencyApp/app/src/main/res/layout/activity_foreign_film.xml" value="0.28532608695652173" />
+        <entry key="..\:/Users/gamze.uysal/Desktop/movie/KotlinCryptocurrencyApp/app/src/main/res/layout/activity_foreign_movie.xml" value="0.28532608695652173" />
+        <entry key="..\:/Users/gamze.uysal/Desktop/movie/KotlinCryptocurrencyApp/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/gamze.uysal/Desktop/movie/KotlinCryptocurrencyApp/app/src/main/res/layout/activity_portrayal_movie.xml" value="0.28532608695652173" />
+        <entry key="..\:/Users/gamze.uysal/Desktop/movie/KotlinCryptocurrencyApp/app/src/main/res/layout/row_layout.xml" value="0.2776268115942029" />
+        <entry key="..\:/Users/gamze.uysal/Desktop/movie/KotlinCryptocurrencyApp/app/src/main/res/layout/row_layout_filter.xml" value="0.2953125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
